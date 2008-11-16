@@ -1,0 +1,4 @@
+xml.instruct!
+xml.feed "xml:lang" => "en-US", "xmlns" => 'http://www.w3.org/2005/Atom' do
+    xml.title(@email.subject)
+end
